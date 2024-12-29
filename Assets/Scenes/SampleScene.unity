@@ -276,8 +276,8 @@ GameObject:
   - component: {fileID: 224919392}
   - component: {fileID: 224919391}
   m_Layer: 10
-  m_Name: Pillar (2)
-  m_TagString: Untagged
+  m_Name: RedPillar
+  m_TagString: RedLens
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -341,7 +341,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e57451bc5b7e03047aea2b35d266cf0a, type: 2}
+  - {fileID: 2100000, guid: 3a0855cfc2a54ea4b9b66edf51660053, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1162,8 +1162,8 @@ GameObject:
   - component: {fileID: 1009067152}
   - component: {fileID: 1009067151}
   m_Layer: 10
-  m_Name: Pillar
-  m_TagString: Untagged
+  m_Name: BluePillar
+  m_TagString: BlueLens
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1227,7 +1227,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e57451bc5b7e03047aea2b35d266cf0a, type: 2}
+  - {fileID: 2100000, guid: 12c32d84bc174814986664e0c11bc272, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1392,8 +1392,8 @@ GameObject:
   - component: {fileID: 1441908410}
   - component: {fileID: 1441908409}
   m_Layer: 10
-  m_Name: Pillar (1)
-  m_TagString: Untagged
+  m_Name: GreenPillar
+  m_TagString: GreenLens
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1457,7 +1457,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e57451bc5b7e03047aea2b35d266cf0a, type: 2}
+  - {fileID: 2100000, guid: 51e3daf10a2239947a39196c26d41a97, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1884,8 +1884,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cd26ef8a1aa1184ba61279fc75a47eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventory: []
+  inventory:
+  - ClearLens
   lensMaterials:
+  - {fileID: 2100000, guid: 0df2f5458430a4f4da5cfcfb97c730fd, type: 2}
   - {fileID: 2100000, guid: f248705127acc20489deb370ab5e0510, type: 2}
   - {fileID: 2100000, guid: 8b548949543c1ad42a70453cfeb82d19, type: 2}
   - {fileID: 2100000, guid: ee5a03c38709c144d8d8f899aab61e6e, type: 2}
